@@ -1,0 +1,52 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap');
+
+
+body{
+    background-color: #0f0f0f;
+    font-family: 'Share Tech Mono', monospace;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fwdp-logo{
+    width: 180px;
+    margin-bottom: 10px;
+}
+.myPic{
+    width: 400px;
+    height: 430px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+.card .name{
+    font-size: 35px;
+}
+
+.card{
+    border-radius: 10px;
+    background: #ff0cc9;
+    background: linear-gradient(90deg, #ff0cc9 25%, #ff59da 78%);
+    color: white;
+    text-align: center;
+    width: 380px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+#discord-details{
+    background: #690cff;
+    background: linear-gradient(90deg, #610cff 40%, #4b38ee 70%);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.discord{
+    width: 40px;
+    filter: brightness(0) invert(1);
+}
